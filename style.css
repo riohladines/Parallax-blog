@@ -1,0 +1,129 @@
+/* Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: #000000;
+  color: #ffffff;
+  line-height: 1.6;
+}
+h1, h2, h3 {
+  font-weight: 400;
+}
+a {
+  text-decoration: none;
+  color: #1504d4;
+}
+
+/* Parallax Sections */
+.parallax {
+  height: 100vh;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+.hero {
+  background-image: url('images/rm-hero.jpg');
+}
+.hero-content h1 {
+  font-size: 3.5rem;
+  letter-spacing: 2px;
+}
+.hero-content p {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.9);
+}
+.quote {
+  background-image: url('images/leaves.jpg');
+}
+.quote-content h2 {
+  font-size: 2rem;
+  background-color: rgba(0,0,0,0.4);
+  padding: 1rem 2rem;
+  border-radius: 12px;
+}
+
+/* Static Sections */
+.about, .posts {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+.about h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.about p {
+  max-width: 600px;
+  margin: auto;
+  font-size: 1.1rem;
+  color: #555;
+}
+.posts h2 {
+  font-size: 1.8rem;
+}
+.post-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.post-card {
+  background: #fff;
+  border: 1px solid #dddddd00;
+  padding: 2rem;
+  max-width: 280px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgb(0, 0, 0);
+  background-image: url('images/post.jpg');
+}
+.post-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+.post-card a {
+  display: inline-block;
+  margin-top: 1rem;
+  font-weight: bold;
+  color: #3a5a77;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 2rem;
+  background-color: #111;
+  color: #eee;
+}
+
+.music {
+  padding: 4rem 2rem;
+  text-align: center;
+  background-color: #000000;
+}
+.music h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.music p {
+  font-size: 1rem;
+  color: #000000;
+  margin-bottom: 2rem;
+  font-style: italic;
+}
+.spotify-embed {
+  max-width: 720px;
+  margin: auto;
+}
